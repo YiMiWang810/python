@@ -1,0 +1,3 @@
+SyntaxError: Non-ASCII character '\xe5' in file /home/wangbingjie/桌面/2.py on line 5, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+解决方法：在首行添加 #coding=utf-8，这里不能有空格，不然可能还是报错。
+原因：Python默认编码是ASCII码，显示汉字需要utf-8编码
