@@ -1,0 +1,4 @@
+ns2的安装
+１.ubuntu16更新源的问题，在更新里面将其他选项的钩钩都取消
+２．ns2安装之后添加环境变量是，出现系统自带命令不能用的问题，最后在一个博客上面看见，
+在第一个PATh后面加上bin的目录/usr/sbin:/usr/bin:/usr/local/bin:/usr/local/sbin:/bin:/sbin
