@@ -6,3 +6,10 @@
 
 3.安装jupyter出现TypeError: unsupported operand type(s) for -=: 'Retry' and 'int'，更新pip，设置时间超时pip --default-timeout=100 install -U 
 
+4.AttributeError: module 'Box2D._Box2D' has no attribute 'RAND_LIMIT'
+
+pip uninstall Box2D-kengz
+git clone https://github.com/pybox2d/pybox2d.git
+cd pybox2d
+python setup.py clean
+python setup.py install
