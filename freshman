@@ -4,5 +4,5 @@
 
 2.bash 忽然import不到annconda里面的东西，bashrc重新写一下路径(从前面剪切到后面，啥也没动),搞不懂这是什么情况，反正现在又好了
 
-3.安装jupyter出现TypeError: unsupported operand type(s) for -=: 'Retry' and 'int'，更新pip重新安装即可
+3.安装jupyter出现TypeError: unsupported operand type(s) for -=: 'Retry' and 'int'，更新pip，设置时间超时pip --default-timeout=100 install -U 
 
