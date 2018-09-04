@@ -13,3 +13,7 @@ git clone https://github.com/pybox2d/pybox2d.git
 cd pybox2d
 python setup.py clean
 python setup.py install
+
+5.tensorboard 6006访问失败：添加端口 tensorboard --logdir="DDPG.ckpt-0" --port=8080
+6.tensorboard的使用
+writer= tf.train.SummaryWriter('./文件名',sess.graph)
